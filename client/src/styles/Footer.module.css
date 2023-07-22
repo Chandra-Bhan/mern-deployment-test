@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 7rem;
+}
+.ft_h1{
+    color:rgb(87, 87, 87)
+}
+.ft_para{
+    color:rgb(145, 144, 144)
+}
+.ft_icon:hover{
+    font-size: 5.5rem;
+}

@@ -1,0 +1,99 @@
+.url_div{
+    border:1px solid;
+    background-image: url("https://images.unsplash.com/photo-1445112098124-3e76dd67983c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ymx1ZSUyMHdhdGVyfGVufDB8fDB8fHww&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width:100vw;
+    height: 70vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    
+}
+.url_input{
+    width: 40vw;
+    height: 5vh;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    padding: 7px;
+    padding-left: 20px;
+    border: none;
+    outline-color: #007BFF;
+}
+.go_btn{
+background-color: #007BFF;
+color: white;
+border: none;
+height: 7vh;
+width: 15vw;
+border-radius: 5px;
+font-size: 1.3rem;
+font-weight: 900;
+padding: 7px;
+}
+.body_head{
+    color: white;
+    font-size: 66px;
+}
+
+.go_btn:hover{
+    background-color: #0268d5;
+}
+.video_info{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin-right: 10rem;
+    min-height: 38rem;
+}
+.transcript_line{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.transcript_line:hover{
+    color: #0161c7;
+    text-decoration: underline;
+}
+.copy_trans_btn{
+    background-color: #F8F9FA;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    font-size: 17px;
+    color: rgb(134, 134, 134);
+    border: 1px solid rgb(157, 157, 157);
+    
+}
+.copy_trans_btn:hover{
+    background-color: #6C757D;
+    color: #F8F9FA;
+}
+.copybtn_div{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: sticky;
+    bottom: 0;
+    
+}
+.video_copybtn_div{
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.jump_to_video_link{
+    color: #0161c7;
+    text-decoration: none;
+}
+.jump_to_video_link:hover{
+    color: #024fa2;
+    text-decoration:underline;
+}
+.yt_video{
+    width:150%;
+    height: 100%;
+    border:2px solid;
+}
