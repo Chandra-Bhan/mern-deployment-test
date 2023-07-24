@@ -33,6 +33,8 @@ function Home() {
 
   const submitURL = async (url) => {
     try {
+      const videoIdvar = url.match(/v=([^&]+)/)[1];
+      setVideoID(videoIdvar);
       if (url) {
         setIsLoading(true);
         setHiddentitle(false);
@@ -59,11 +61,11 @@ function Home() {
       });
     }
   };
-
-  useEffect(() => {
-    const videoIdvar = url.match(/v=([^&]+)/)[1];
-    setVideoID(videoIdvar);
-  }, [url]);
+  //!updated and fixed the inputbox issue
+  // useEffect(() => {
+  //   const videoIdvar = url.match(/v=([^&]+)/)[1];
+  //   setVideoID(videoIdvar);
+  // }, [url]);
   return (
     <div>
       <Navbar submitURL={submitURL} hiddenTitle={hiddenTitle} />
