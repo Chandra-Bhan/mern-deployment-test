@@ -38,7 +38,9 @@ function Home() {
       if (url) {
         setIsLoading(true);
         setHiddentitle(false);
-        const response = await axios.post("http://localhost:5000/transcript", {
+        const backendURL =
+          "https://mern-deployment-test-on-transcript-genyt.onrender.com";
+        const response = await axios.post(`${backendURL}/transcript`, {
           url,
         });
         const url_data = url;
