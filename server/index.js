@@ -1,11 +1,12 @@
 const express = require("express");
 const ytdl = require("ytdl-core");
 const cors = require("cors");
+require("dotenv").config();
 
 const { SpeechClient } = require("@google-cloud/speech");
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json());
